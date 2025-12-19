@@ -1,0 +1,10 @@
+# Build artifacts
+matching_engine
+*.o
+build/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
