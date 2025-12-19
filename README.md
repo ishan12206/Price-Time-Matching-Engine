@@ -33,7 +33,9 @@ The motivation behind this project was to understand how orders are executed on 
 ---
 
 ## Testing and Edge-Cases
-- FIFO at same price level.
-   * 
+The matching engine was validated against a set of execution-focused tests designed to preserve core market invariants. These include FIFO enforcement at identical price levels, correct handling of partial fills, and market orders sweeping liquidity across multiple price levels.<br>
+Additional tests such as market orders on empty books and cancellation of partially filled orders were carried out to ensure correct order lifecycle management. Execution prices were verified to always correspond to resting orders, consistent with continuous double auction market semantics.
+
+---
 
 
